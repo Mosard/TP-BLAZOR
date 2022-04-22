@@ -1,0 +1,104 @@
+﻿@page "/abonnement/{id:int}"
+@using PayYourLight.Data
+@inject IAbonnement abonnI
+@inject ICompteur ComInj
+@inject NavigationManager NavigationManager
+
+
+<h3>Abonnement</h3>
+<form>
+    <div class="row">
+        <div class="col-md-6">
+            <RadzenFieldset Text="Enregistrement Client">
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">Client ID : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <input style="width: 100%;" for="Name" class="form-control" @bind="@typeComp.Id" />
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">Compteur ID : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <select id="inputState" class="form-control" @bind="@compteursAb.IdType">
+                            <option selected>Choose...</option>
+                            @if (type == null)
+                            {
+
+                            }
+                            else
+                            {
+                                @foreach (var types in type)
+                                {
+                                    <option value="@types.Id">@types.numeroCompteur</option>
+                                }
+
+                            }
+
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">Montant : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <input style="width: 100%;" type="number" for="Name" class="form-control" @bind="@typeComp.montant" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">MontantAbonnement : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <input style="width: 100%;" for="Name" class="form-control"/>
+                    </div>
+                </div>
+            </RadzenFieldset>
+            <div class="row">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 d-flex align-items-end justify-content-center" style="margin-top: 16px;">
+                        <RadzenButton ButtonType="ButtonType.Reset" Icon="save" Text="Modifier" Click="@CreateAbonn" />
+                        <RadzenButton ButtonStyle="ButtonStyle.Light" Icon="cancel" style="display: inline-block; margin-left: 10px;" Text="Annuler" Click="@Cancel" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</form>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    ClsAbonnement typeComp = new ClsAbonnement();
+    ClsCompteurs compteursAb = new ClsCompteurs();
+    IEnumerable<ClsCompteurs> type;
+
+
+    protected async Task CreateAbonn()
+    {
+        await abonnI.CreateAbonnement(typeComp);
+        NavigationManager.NavigateTo("listclients");
+    }
+    void Cancel()
+    {
+        NavigationManager.NavigateTo("listclients");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        typeComp = await abonnI.SingleAbonnement(id);
+        type = await ComInj.GetCompteurTable();
+
+    }
+
+
+}

@@ -1,0 +1,71 @@
+﻿@page "/listclients"
+@using PayYourLight.Data
+@inject IClients ClsClient
+<h2>Liste clients</h2>
+<p>
+    <a href="/listclients">Liste Client </a>
+</p>
+
+
+<form>
+    <div class="row">
+        <div class="col-md-12">
+
+            <RadzenFieldset>
+                @if (client == null)
+                {
+                    <p>Chargement...</p>
+                }
+                else
+                {
+                    <table class="table table-bordered" style="border-radius:10px;">
+                        <thead>
+                            <tr>
+                                <th>Identifient</th>
+                                <th>Nom</th>
+                                <th>Postnom Mens</th>
+                                <th>Prenom</th>
+                                <th>Email</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var t in client)
+                            {
+                            <tr>
+                                <td>@t.Id</td>
+                                <td>@t.Nom</td>
+                                <td>@t.Postnom</td>
+                                <td>@t.Prenom</td>
+                                <td>@t.Email</td>
+
+                            <td>
+                                <a href="/abonnement/@t.Id/" class="btn btn-warning">S'abonner</a>
+                            </td>
+                            </tr>
+                            }
+
+
+                        </tbody>
+
+                    </table>
+                }
+            </RadzenFieldset>
+
+        </div>
+    </div>
+
+    <hr />
+</form>
+
+
+
+
+@code {
+    ClsClients cl = new ClsClients();
+    IEnumerable<ClsClients> client;
+    protected override async Task OnInitializedAsync()
+    {
+        client = await ClsClient.GetClients();
+    }
+}

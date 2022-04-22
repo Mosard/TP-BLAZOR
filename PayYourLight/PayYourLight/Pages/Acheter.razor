@@ -1,0 +1,59 @@
+﻿@page "/acheter"
+@using PayYourLight.Data
+@inject ICompteur compt
+<form>
+    <div class="row">
+        <div class="col-md-12">
+
+            <RadzenFieldset>
+                @if (type == null)
+                {
+                    <p>Chargement...</p>
+                }
+                else
+                {
+                    <table class="table table-bordered" style="border-radius:10px;">
+                        <thead>
+                            <tr>
+                                <th>Identifient</th>
+                                <th>Numéro</th>
+                                <th>Nom Complet</th>
+                                <th>Status Ab </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var t in type)
+                            {
+                                <tr>
+                                    <td>@t.Id</td>
+                                    <td>@t.numeroCompteur</td>
+                                    <td>@t.NOM</td>
+                                    <td>@t.StatutAbonnement</td>
+
+                                    <td>
+                                        <a href="/editType/@t.Id/" class="btn btn-success">Selectionner</a>
+                                    </td>
+                                </tr>
+                            }
+
+
+                        </tbody>
+
+                    </table>
+                }
+            </RadzenFieldset>
+
+        </div>
+
+    </div>
+</form>
+
+@code {
+        ClsCompteurs comp = new ClsCompteurs();
+        IEnumerable<ClsCompteurs> type;
+protected override async Task OnInitializedAsync()
+    {
+        type = await compt.GetCompteur();
+    }
+}

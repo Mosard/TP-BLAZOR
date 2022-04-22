@@ -1,0 +1,83 @@
+﻿@page "/edittypecompteur"
+@using PayYourLight.Data
+@inject IClsTypeCompteur TypeCls
+@inject NavigationManager NavigationManager
+<h3>Liste du Type Compteur</h3>
+
+<form>
+    <div class="row">
+        <div class="col-md-12">
+
+            <RadzenFieldset>
+                @if (compteurType == null)
+                {
+                    <p>Chargement...</p>
+                }
+                else
+                {
+                    <table class="table table-bordered" style="border-radius:10px;">
+                        <thead>
+                            <tr>
+                                <th>Identifient</th>
+                                <th>Designation</th>
+                                <th>Montant Mens</th>
+                                <th>Montant Abonnement</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var t in compteurType)
+                            {
+                                <tr>
+                                    <td>@t.Id</td>
+                                    <td>@t.Designation</td>
+                                    <td>@t.Montantmoi</td>
+                                    <td>@t.MontantAbonnement</td>
+                                    <td>
+                                        <a href="/editType/@t.Id/" class="btn btn-primary">Edit</a>
+                                        <a href="/editType" class="btn btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+
+
+                        </tbody>
+                        
+                    </table>
+                }
+            </RadzenFieldset>
+
+        </div>
+    </div>
+    
+    <hr />
+</form>
+
+
+@code {
+
+    ClsTypeComteurs typeComp = new ClsTypeComteurs();
+    
+    protected async Task CreateTypeCompteur()
+    {
+        await TypeCls.CreateTypeCompteur(typeComp);
+        NavigationManager.NavigateTo("typecompteur");
+
+    }
+    void cancel()
+    {
+        NavigationManager.NavigateTo("typecompteur");
+    }
+
+
+
+
+    IEnumerable<ClsTypeComteurs> compteurType;
+    protected override async Task OnInitializedAsync()
+    {
+        compteurType = await TypeCls.GetTypeCompteur();
+    }
+
+
+
+}

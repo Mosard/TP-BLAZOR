@@ -1,0 +1,162 @@
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.exe
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.deps.json
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.runtimeconfig.json
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.runtimeconfig.dev.json
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.pdb
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.Views.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.Views.pdb
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.csprojAssemblyReference.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.AssemblyInfoInputs.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.AssemblyInfo.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorComponent.input.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.TagHelpers.input.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.TagHelpers.output.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorCoreGenerate.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorAssemblyInfo.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorAssemblyInfo.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorTargetAssemblyInfo.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorTargetAssemblyInfo.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.Views.pdb
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\staticwebassets\PayYourLight.StaticWebAssets.Manifest.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\staticwebassets\PayYourLight.StaticWebAssets.xml
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.pdb
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.genruntimeconfig.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.csproj.CopyComplete
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ClientForm.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListClients.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\TypeCompteur.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.StaticWebAssets.xml
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.csproj.CoreCompileInputs.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\PayYourLight.dll
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\ClientForm.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\ListClients.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\TypeCompteur.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CompteurPage.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\CompteurPage.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditTypeCompteur.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\EditTypeCompteur.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Edit_TypeCompteur.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Edit_TypeCompteur.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Acheter.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Acheter.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Abonnement.razor.g.cs
+C:\Users\Carin\source\repos\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Abonnement.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.StaticWebAssets.xml
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.exe
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.deps.json
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.runtimeconfig.json
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.runtimeconfig.dev.json
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.pdb
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.Views.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\PayYourLight.Views.pdb
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.csprojAssemblyReference.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.AssemblyInfoInputs.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.AssemblyInfo.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.csproj.CoreCompileInputs.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorComponent.input.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Abonnement.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Acheter.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ClientForm.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CompteurPage.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditTypeCompteur.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Edit_TypeCompteur.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListClients.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\TypeCompteur.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\PayYourLight.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.TagHelpers.input.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.TagHelpers.output.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorCoreGenerate.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Abonnement.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Acheter.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\ClientForm.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\CompteurPage.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\EditTypeCompteur.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Edit_TypeCompteur.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\ListClients.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\TypeCompteur.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorAssemblyInfo.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorAssemblyInfo.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorTargetAssemblyInfo.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.RazorTargetAssemblyInfo.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.Views.pdb
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.csproj.CopyComplete
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\staticwebassets\PayYourLight.StaticWebAssets.Manifest.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\staticwebassets\PayYourLight.StaticWebAssets.xml
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.dll
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.pdb
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\PayYourLight.genruntimeconfig.cache
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\RazorDeclaration\Carrouselt.razor.g.cs
+C:\Users\Mosard salama\Desktop\SIWA MUMBERE C#\PayYourLight\PayYourLight\obj\Debug\netcoreapp3.1\Razor\Carrouselt.razor.g.cs

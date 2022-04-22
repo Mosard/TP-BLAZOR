@@ -1,0 +1,159 @@
+﻿@page "/typecompteur"
+@using PayYourLight.Data
+@inject NavigationManager NavigationManager
+@inject IClsTypeCompteur TypeCls
+@inject ICompteur IComp
+
+<form>
+    <div class="row">
+        <div class="col-md-6">
+            <RadzenFieldset Text="Enregistrement Client">
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">Designation : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <input style="width: 100%;" for="Name" class="form-control" @bind="@typeComp.Designation" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">Montant Mensuel : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <input style="width: 100%;" for="Name" class="form-control" @bind="@typeComp.Montantmoi" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">MontantAbonnement : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <input style="width: 100%;" for="Name" class="form-control" @bind="@typeComp.MontantAbonnement" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 d-flex align-items-end justify-content-center" style="margin-top: 16px;">
+                            <RadzenButton ButtonType="ButtonType.Reset" Icon="save" Text="Enregistrer" Click="@CreateTypeCompteur" />
+                            <RadzenButton ButtonStyle="ButtonStyle.Light" Icon="cancel" style="display: inline-block; margin-left: 10px;" Text="Annuler" Click="@cancel" />
+                            <a href="/edittypecompteur" class="btn btn-info">Modifier</a>
+                        </div>
+                    </div>
+
+                </div>
+            </RadzenFieldset>
+
+        </div>
+        <div class="col-md-6">
+            <RadzenFieldset Text="Enregistrement Compteur">
+
+                <br />
+                <div class="row">
+                    <div class="col-md-4 align-items-center d-flex">
+                        <label for="Name" class="control-label">Type Compteur : </label>
+                    </div>
+                    <div class="col-md-8">
+                        <select id="inputState" class="form-control" @bind="@comp.IdType">
+                            <option selected>Choose...</option>
+                            @if (type == null)
+                            {
+
+                            }
+                            else
+                            {
+                                @foreach (var types in type)
+                                {
+                                    <option value="@types.Id">@types.Designation</option>
+                                }
+
+                            }
+
+                        </select>
+                    </div>
+                    <input type="text" @bind="@comp.Id" hidden/>
+                    <input type="text"  @bind="@comp.NumberCompteur" hidden/>
+                </div>
+                <div class="row">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 d-flex align-items-end justify-content-center" style="margin-top: 16px;">
+                            <RadzenButton ButtonType="ButtonType.Reset" Icon="save" Text="Enregistrer" Click="@CreateCompteur" />
+                            <RadzenButton ButtonStyle="ButtonStyle.Light" Icon="cancel" style="display: inline-block; margin-left: 10px;" Text="Annuler" Click="@cancel" />
+                            <a href="/compteur" class="btn btn-info">Modifier</a>
+                        </div>
+                    </div>
+
+                </div>
+                <br />
+            </RadzenFieldset>
+        </div>
+
+    </div>
+
+    <hr />
+    <div class="row">
+        <div>
+
+            <RadzenDataGrid AllowFiltering="true" AllowPaging="true" PageSize="5" AllowSorting="true"
+                            Data="@compteurType" TItem="ClsTypeComteurs">
+                <Columns>
+                    <RadzenDataGridColumn Width="50px" TItem="ClsTypeComteurs" Title="#" Filterable="false" Sortable="false" TextAlign="TextAlign.Center">
+                        <Template Context="data">
+
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <RadzenDataGridColumn Width="200px" TItem="ClsTypeComteurs" Property="Id" Title="Identifiant" />
+                    <RadzenDataGridColumn Width="200px" TItem="ClsTypeComteurs" Property="Designation" Title="Designation" />
+                    <RadzenDataGridColumn TItem="ClsTypeComteurs" Property="MontantAbonnement" Title="Montant Mens" />
+                    <RadzenDataGridColumn TItem="ClsTypeComteurs" Property="MontantAbonnement" Title="Mentant Ab" />
+                </Columns>
+            </RadzenDataGrid>
+        </div>
+
+    </div>
+</form>
+
+
+@code {
+
+    ClsTypeComteurs typeComp = new ClsTypeComteurs();
+    ClsCompteurs comp = new ClsCompteurs();
+
+    protected async Task CreateTypeCompteur()
+    {
+        await TypeCls.CreateTypeCompteur(typeComp);
+        NavigationManager.NavigateTo("typecompteur");
+
+    }
+
+    protected async Task CreateCompteur()
+    {
+        await IComp.CreateCompteur(comp);
+        NavigationManager.NavigateTo("typecompteur");
+
+    }
+
+    void cancel()
+    {
+        NavigationManager.NavigateTo("typecompteur");
+    }
+
+
+
+    IEnumerable<ClsTypeComteurs> type;
+    IEnumerable<ClsTypeComteurs> compteurType;
+    protected override async Task OnInitializedAsync()
+    {
+        compteurType = await TypeCls.GetTypeCompteur();
+        type = await TypeCls.GetTypeCompteur();
+    }
+
+
+
+
+
+
+}
